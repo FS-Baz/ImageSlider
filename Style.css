@@ -1,0 +1,69 @@
+body , html{
+   height: 100%;
+   margin: 0px;
+
+}
+.backgroundImg{
+    background-image: url("Pic1.jpg") ; 
+    height: 100%;
+    width: 100%;
+
+
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition: 0.5s ease;
+}
+
+.screen{
+       
+    
+    position:relative;
+    text-align: center;
+    top: 15%;
+    transition: 0.5s ease;
+    
+    
+}
+
+#display{
+    height: 500px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    background-position: center center;
+  background-size: cover;
+  
+}
+
+.screen Button{
+    font-size: 50px;
+    color: #3d3a3a;
+    text-shadow: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 75px;
+    width: 75px;
+    margin: 0px;
+    bottom: 250px;
+    background: none;
+    outline: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+}
+
+.rightBtn{
+    border: solid 3px #3d3a3a;
+    border-left: none;
+    left: -4px
+    
+}
+.leftBtn{
+    border: solid 3px #3d3a3a;
+    border-right: none;
+    left: 4px
+}
